@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, sans-serif;
+    font-size: 14px;
+    color: #2b2a2a;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#brand .img {
+    width: 40px;
+    height: 40px;
+    background-image: url("./../images/img.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#brand .img {
+    width: 40px;
+    height: 40px;
+    background-image: url("./../images/img.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#brand .brand-text {
+    line-height: 1;
+}
+
+#brand .brand-big {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+#brand .brand-small {
+    font-size: 0.8rem;
+}
+
+#menu {
+    height: 50px;
+}
+
+#menu ul {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#menu ul>li {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#menu ul>li:hover {
+    filter: drop-shadow(0px 0px 5px #000);
+}
+
+#body {
+    margin-top: 50px;
+    padding: 15px;
+    overflow-x: hidden;
+}
+
+#footer {
+    background-color: #111702;
+    color: #eee;
+    font-weight: lighter;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.grid-3>ul {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-3>div {
+    padding: 15px;
+}
+
+.grid-title {
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 5px;
+}
+
+#credits {
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+}
